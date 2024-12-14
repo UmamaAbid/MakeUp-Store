@@ -1,0 +1,3 @@
+// This file is used for the unwanted code that we don't want to push on the github
+.env
+node_modules
