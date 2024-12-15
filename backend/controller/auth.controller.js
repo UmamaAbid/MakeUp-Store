@@ -58,7 +58,6 @@ const loginUser = asyncHandler(async (req, res) => {
 //@access Public
 
 const logOut = asyncHandler(async (req, res) => {
-  console.log("logout");
   res.cookie("jwt", "", {
     httpOnly: true,
     expires: new Date(0),

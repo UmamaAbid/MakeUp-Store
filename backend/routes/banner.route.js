@@ -4,7 +4,7 @@ import {
   deleteBanner,
   getAllBanners,
   getRandomBanner,
-} from "../controllers/banner.controller.js";
+} from "../controller/banner.controller.js";
 const router = express.Router();
 
 // CREATE BANNER ROUTE
